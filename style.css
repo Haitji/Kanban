@@ -1,5 +1,6 @@
 #kanban{
     width: 95%;
+    padding-left: 75px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -20,7 +21,7 @@ html main{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 20px;
+    padding: 20px 0px;
 }
 
 main>h1{
@@ -38,7 +39,7 @@ main>h1{
 div.column{
     float:left;
     width: 17vw;
-    margin:10px;
+    margin:9px;
     border-radius: 15px;
     background-color: rgba(255, 255, 255, 0.699);
 }
@@ -72,21 +73,26 @@ div.tag{
     margin: 5px;
     border-radius: 50%;
     color:white;
-    /* width: 30px;
-    height: 30px; */
+    width: 30px;
+    height: 30px;
+    text-align: center;
 }
 
 .front{
    background-color: rgb(2, 190, 2);
-   padding: 8px;
+   /* padding: 8px; */
 }
 
 .back{
     background-color: red;
-    padding: 8px 9px;
+    /* padding: 8px 9px; */
 }
 
 .device{
     background-color:yellow;
-    padding: 8px 11px;
+    /* padding: 8px 11px; */
+}
+
+i.fas{
+    margin: 7px 0px;
 }
