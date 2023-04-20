@@ -1,0 +1,92 @@
+#kanban{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+html {
+    margin: 0;
+    padding-top: 0;
+    height: 112%;
+}
+body{
+    margin: 0;
+    padding-top: 0;
+    height: 110%; 
+}
+html main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2012/10/30/15/55/valley-63564_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+main>h1{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    padding: 10px;
+    margin-top:10px;
+    border-radius: 15px;
+    background-color: rgba(77, 72, 217, 0.5);
+    color: white;
+}
+
+div.column{
+    float:left;
+    width: 17vw;
+    margin:10px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.699);
+}
+div.card{
+    border-radius: 15px;
+    width: 80%;
+    margin: 15px auto;
+    height: 140px;
+    padding: 15px;
+    background-color: white;
+}
+div.card:hover{
+    transition: 0.2s;
+    background-color: rgba(98, 75, 213, 0.757);
+    color: white;
+}
+div.card:hover .tag{
+    color: rgb(38, 0, 163);
+}
+
+div>h2{
+    margin-left: 10px;
+}
+
+div>h3 div>p{
+    margin-left:5px
+}
+
+div.tag{
+    float: left;
+    margin: 5px;
+    border-radius: 50%;
+    color:white;
+    /* width: 30px;
+    height: 30px; */
+}
+
+.front{
+   background-color: rgb(2, 190, 2);
+   padding: 8px;
+}
+
+.back{
+    background-color: red;
+    padding: 8px 9px;
+}
+
+.device{
+    background-color:yellow;
+    padding: 8px 11px;
+}
